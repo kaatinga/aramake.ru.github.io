@@ -1,0 +1,14 @@
+body {
+    color: antiquewhite;
+    background-color: black;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    color: burlywood;
+}
+
+a:hover {
+    color: white;
+}
