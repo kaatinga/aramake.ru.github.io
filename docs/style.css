@@ -26,13 +26,12 @@
     box-sizing: border-box;
 }
 
-.photo {
+img {
     display: block;
-    width: 12vw;
-    height:12vw;
-    max-width:100%;
-    min-width:100px;
-    min-height:100px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
     object-fit:contain;
 }
 
@@ -308,6 +307,10 @@ th:first-of-type {
         align-items: baseline;
         top: calc((var(--navbarheight) - 80px) / 2);
         right: var(--space);
+    }
+
+    .logo > img {
+        padding-top: 2vw;
     }
 
     /* Showing the burger */
