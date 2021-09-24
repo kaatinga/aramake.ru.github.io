@@ -26,6 +26,11 @@
     box-sizing: border-box;
 }
 
+img {
+    width: auto;
+    height: auto;
+}
+
 body {
     display: flex;
     flex-direction: column;
