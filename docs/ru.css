@@ -1,0 +1,16 @@
+@media screen and (min-width: 769px) {
+
+    .en > a {
+        background: url(img/ukm.svg) no-repeat;
+        display: flex;
+        justify-content: center;
+        border: 2px solid var(--navbaritemcolor);
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        background-position: center;
+        background-size: 59px 40px;
+        opacity: .5;
+        transition: opacity var(--speed) ease-out;
+    }
+}
